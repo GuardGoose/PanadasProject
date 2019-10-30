@@ -6,7 +6,7 @@ This will give them options for what they want to process.
 
 
 from interfaces.s_selection import SecondarySelection as SS  # Imports the secondary_selection function from selections
-import MiniProject1.interfaces.newcastle_cm as IT  # Imports the interfaces for the choices the user makes
+import interfaces.newcastle_cm as IT  # Imports the interfaces for the choices the user makes
 from Newcastle.newcastle_cc import ColumnCalculation as CC  # Imports the ColumnCalculation class
 from Newcastle.newcastle_cc import GraphPlotting as GP  # Imports the GraphPlotting class
 

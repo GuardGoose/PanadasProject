@@ -5,10 +5,10 @@ This will give them options for what they want to process.
 """
 
 
-from MiniProject1.interfaces.s_selection import SecondarySelection as SS  # Imports the secondary_selection function from selections
-import MiniProject1.interfaces.ni_cm as IT  # Imports the interfaces for the choices the user makes
-from MiniProject1.NI.ni_cc import ColumnCalculation as CC  # Imports the ColumnCalculation class
-from MiniProject1.NI.ni_cc import GraphPlotting as GP  # Imports the GraphPlotting class
+from interfaces.s_selection import SecondarySelection as SS  # Imports the secondary_selection function from selections
+import interfaces.ni_cm as IT  # Imports the interfaces for the choices the user makes
+from NI.ni_cc import ColumnCalculation as CC  # Imports the ColumnCalculation class
+from NI.ni_cc import GraphPlotting as GP  # Imports the GraphPlotting class
 
 
 class Bag:
