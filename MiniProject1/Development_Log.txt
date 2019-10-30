@@ -1,0 +1,96 @@
+.LOG
+
+
+19:13 23/02/2018
+
+Datasets were chosen.
+Basic structure of moduals was written.
+Basic user interface for the index page was written.
+First selection function was made in selections.py and linked to index.py.
+Project file for the Newcastle dataset was made
+secondary_selection function which lets user choose whether they do "Column Statistics" or "Graph Plotting" with the chosen data was written in selection.py and linked to Newcastle_1.py. 
+secondary_selection function will be linked to the modules of other datasets, negating the need to re-write the same function multiple times. 
+
+
+20:29 23/02/2018
+
+Project files for the Northern Ireland dataset, and the Hawaii dataset were made. Linked secondary_selection function from selection.py to NI_1.py and Hawaii_1.py. 
+
+
+09:59 24/02/2018
+
+Changed Newcastle from a function to a class, accordingly wrote a main() function for it in Newcastle_1.py.
+Moved secondary_selection from selections.py to s_selection.py, because a modual can only be loaded once.
+Wrote newcastle_selections.py which contains two functions with the basic user interface and options for if the user wants to do some statistcal analysis or plot graphs.
+
+16:22 25/02/2018
+
+Added @classmethods to Newcastle class. @classmethods created were column_or_graph , column_selection, graph_plotting.
+Program was debugged and additional annotations were added.
+Program also now works. 
+ColumnCalculations class was made for Newcastle dataset as well, allowing for column manipulations. 
+
+19:36 01/03/2018
+
+ColumnCalculations class was further developed adding a method which calculated the total amount of electricity for each year and displayed it in a new row at the bottom of the columns.
+
+14:22 03/03/2018
+
+ColumnCaclculations class was further expanded adding a method to find the max electricity used each year.
+Newcastle class was revamped, and actually kinda works now, almost, but not quite.
+Newcastle's two choice interfaces were put into one python file instead of using two files, it just seemed to be nicer that way. 
+Newcastle's main function was also revamped, it's much more easier to read and reletively functional.
+Further annotations added.
+
+23:32 03/03/2018
+
+ColumnCaclculations class was completed and imported to Newcastle_1.py as a class.
+ColumnCalculations class methods are called by Newcastle class methods. 
+GraphPlotting class was made and completed and imported into Newcastle_1.py as a class
+GraphPlotting class methods are used called by Newcastle class methods.
+Newcastle class was finished as well, all methods are complete and bug free.
+Newcastle_1.py main() function was debugged and works with no issues now.
+Everything for Newcastle dataset is complete.
+
+00:05 04/03/2018
+
+Further annotations added.
+
+19:57 04/03/2018
+
+Hawaii dataset was changed out for a plastic bag use in England dataset. All corresponding files were renamed accordingly.
+Interfaces for Plastic Bag dataset are stared.
+
+10:15 05/03/2018
+
+Revisited the Newcastle class and dataset after rereading the requirments. Methods in the ColumnCalculation class were redone: merging basic statistics into one method, total remained unchanged, difference per month between 2011 and 2017 was added, and percent differnce between 2012 and 2013 per month added.
+Interfaces were updated accordingly, Newcastle class was updated accordingly.
+
+19:36 05/03/2018
+
+ColumnCalculation class was began in bag_cc.py. Merging basic statistics method, calculating the total number of plastic bags method was written, and net vs donation method made as well. 
+ColumnCalculation class was intergrated into Bag in Bay_1.py.
+Further annotations have been added. 
+
+13:37 06/03/2018
+
+ColumnCalculation class was finished in bag_cc.py. Vat caluclation was done, and integerated in Bag in Bag_1.py.
+GraphPlotting class in bag_cc.py was started, first two methods complete: pie chart, showing donators v non-donators and a bar chart of bags made. 
+The total plastic bags method in ColumnCalculation was improved, adding suppuression to scientific notation, displaying numbers as integers.
+Further annotations were added.
+
+17:47 08/03/2018
+
+GraphPlotting class in bay_cc.py was completed and further intgerated into the Bag class in Bay_1.py. 
+ni_cc.py was started for the NI dataset.
+Basic structure of ni_cc.py and NI_1.py were done.
+Further annotations were added.
+
+15:15 10/03/2018
+
+Basic statistics were done for NI in ni_cc.py, and other methods were began.
+Further annotations were added.
+
+17:56 12/03/2018
+
+Project and paperwork completed.
